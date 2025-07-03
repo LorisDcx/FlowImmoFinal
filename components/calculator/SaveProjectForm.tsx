@@ -2,9 +2,9 @@
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuth } from '@/context/AuthContext';
-import { useCalculator } from '@/context/CalculatorContext';
-import { projectService } from '@/firebase/services';
+import { useAuth } from '../../context/AuthContext';
+import { useCalculator } from '../../context/CalculatorContext';
+import { projectService } from '../../firebase/services';
 
 export default function SaveProjectForm() {
   const [projectName, setProjectName] = useState('');

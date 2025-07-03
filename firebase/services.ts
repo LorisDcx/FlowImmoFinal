@@ -11,8 +11,8 @@ import {
   Timestamp
 } from 'firebase/firestore';
 import { db } from './config';
-import { UserProfile } from '@/context/AuthContext';
-import { CalculatorInputs, CalculatorResults } from '@/context/CalculatorContext';
+import { UserProfile } from '../context/AuthContext';
+import { CalculatorInputs, CalculatorResults } from '../context/CalculatorContext';
 
 // Type pour les projets immobiliers sauvegardés
 export interface RealEstateProject {

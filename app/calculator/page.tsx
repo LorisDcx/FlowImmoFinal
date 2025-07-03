@@ -2,13 +2,13 @@
 
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
-import CalculatorHeader from '@/components/calculator/CalculatorHeader';
-import CalculatorForm from '@/components/calculator/CalculatorForm';
-import CalculatorResults from '@/components/calculator/CalculatorResults';
-import SaveProjectForm from '@/components/calculator/SaveProjectForm';
-import { useAuth } from '@/context/AuthContext';
-import { projectService } from '@/firebase/services';
-import { CalculatorProvider, useCalculator } from '@/context/CalculatorContext';
+import CalculatorHeader from '../../components/calculator/CalculatorHeader';
+import CalculatorForm from '../../components/calculator/CalculatorForm';
+import CalculatorResults from '../../components/calculator/CalculatorResults';
+import SaveProjectForm from '../../components/calculator/SaveProjectForm';
+import { useAuth } from '../../context/AuthContext';
+import { projectService } from '../../firebase/services';
+import { CalculatorProvider, useCalculator } from '../../context/CalculatorContext';
 
 // Composant intermédiaire pour charger les données de projet si nécessaire
 function CalculatorWithProject() {
