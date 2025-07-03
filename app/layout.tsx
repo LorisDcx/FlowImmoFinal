@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Inter, Poppins, Montserrat } from "next/font/google";
 import "./globals.css";
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
-import { AuthProvider } from '@/context/AuthContext';
-import { CalculatorProvider } from '@/context/CalculatorContext';
+import Header from '../components/layout/Header';
+import Footer from '../components/layout/Footer';
+import { AuthProvider } from '../context/AuthContext';
+import { CalculatorProvider } from '../context/CalculatorContext';
 
 const inter = Inter({
   variable: "--font-inter",
